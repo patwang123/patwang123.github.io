@@ -1,0 +1,22 @@
+.about-me{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(192, 192, 192);
+    padding-left: 80px;
+    padding-right: 80px;
+    height:100%;
+    width: 100%;
+    background-size: cover;
+    overflow: auto;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Calibri, sans-serif;
+    display:inline-block;
+}
+.about-title {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 40px;
+}

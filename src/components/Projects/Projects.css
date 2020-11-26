@@ -1,0 +1,15 @@
+.projects{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    height:100%;
+    width: 100%;
+    background-size: cover;
+    overflow: auto;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Calibri, sans-serif;
+    display:inline-block;
+}  
+.top-buffer{
+    margin-top: 20px;
+}

@@ -1,3 +1,99 @@
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+  text-align: center;
+}
+.content {
+  position:relative;
+}
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.8;
+    filter: blur(3px) brightness(0.6);
+}
+.nav {
+  position: relative;
+  top: -7px;
+  left:-5px;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: rgba(0,0,0,0);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  position: fixed;
+  z-index: 10;
+  top:  5%;
+  left: 5%;
+  width: 51px;
+  height: 51px;
+  border-radius: 50% 50% 50% 50%;
+  border: 1px solid #ffffff;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  left: calc(5%);
+  top: 75px; /* */
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  min-height: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: fixed;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-name: whoosh;
+  animation-duration: 0.5s;
+}
+@keyframes whoosh {
+  0% {
+    background-color: rgba(0,0,0,0);
+  }
+  100% {
+    background-color: rgb(255, 179, 179,0.5);
+  }
+}
+
+/*React CSS*/
 .App {
   text-align: center;
 }
