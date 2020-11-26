@@ -3,6 +3,7 @@ import profile_img from './profile.jpg';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faEnvelope,faPaperclip,faAngleDown} from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
+import resume from './patrickwang_resume.pdf';
 
 export default function About () {
     return (
@@ -37,7 +38,7 @@ export default function About () {
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/patwang123/resume" target="_blank">
+                        <a href={resume} target="_blank" rel='noreferrer'>
                             <FontAwesomeIcon icon={faPaperclip} className='icon'></FontAwesomeIcon>
                         </a>
                     </li>

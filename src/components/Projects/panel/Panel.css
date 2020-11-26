@@ -1,0 +1,18 @@
+.card .card-title {
+    font-size: 28px;
+}
+.card .card-text {
+    font-size: 18px;
+}
+.card .card-body{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.card .card-footer {
+    margin-top: 10px;
+}
+.card .card-text a .p1 {
+    text-decoration: underline;
+    display: inline;
+    margin-right: 4%;
+}

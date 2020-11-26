@@ -1,6 +1,17 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  margin: 0;
+  font-family: Calibri, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+}
+
 h1 {
   text-align: center;
 }
@@ -27,7 +38,7 @@ h1 {
 }
 /* Dropdown Button */
 .dropbtn {
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0.5);
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -35,10 +46,10 @@ h1 {
   z-index: 10;
   top:  5%;
   left: 5%;
-  width: 51px;
-  height: 51px;
+  width: 53px;
+  height: 53px;
   border-radius: 50% 50% 50% 50%;
-  border: 1px solid #ffffff;
+  border: 2px solid rgba(255,255,255,0.6);
 }
 
 /* The container <div> - needed to position the dropdown content */

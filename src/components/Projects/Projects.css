@@ -13,3 +13,6 @@
 .top-buffer{
     margin-top: 20px;
 }
+.container-fluid {
+    max-width: 90%;
+}

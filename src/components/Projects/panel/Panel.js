@@ -1,7 +1,10 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
 import './Panel.css';
-import pathfinding from './img/pathfinding.jpg';
+
+import { BrowserRouter, Route, Link } from 'react-router-dom';
+
+
 export default class Panel extends React.Component {
     constructor (props) {
         super(props)
@@ -9,18 +12,41 @@ export default class Panel extends React.Component {
 
         }
     }
-    render() {
+    test_it() {
+        const {test_it} = this.props;
+        if(test_it === null) return;
+
         return (
-            <Card className="mx-4 my-4">
-                <Card.Img variant="top" src={pathfinding}/>
+            <a href={test_it} target='_blank' rel='noreferrer'>
+                <p className='p1'>
+                    Try it out
+                </p>
+            </a>
+        )
+    }
+    render() {
+        const {
+            title,
+            ext_info,
+            languages,
+            img,
+            github,
+            test_it} = this.props;
+        return (
+            <Card className="mx-4 my-4" id={title}>
+                <Card.Img variant="top" src={img}/>
                 <Card.Body>
-                    <Card.Title>Project title</Card.Title>
+                    <Card.Title>{title}</Card.Title>
+                    <Card.Text>{ext_info}</Card.Text>
                     <Card.Text>
-                        Insert description here
+                        <a href={github} target='_blank' rel='noreferrer'>
+                            <p className='p1'>Github</p>
+                        </a>
+                        {this.test_it()}
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">Insert Languages here</small>
+                    <small className="text-muted">{languages}</small>
                 </Card.Footer>
             </Card>
         )
