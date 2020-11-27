@@ -1,5 +1,7 @@
 import pathfinding from './img/pathfinding.jpg';
 import personal_website from './img/personal_website.jpg'
+import circuits from './img/circuits.jpg';
+import sorting from './img/sorting.jpg';
 /*
 Project Attributes
 ------------------------------------------------------
@@ -23,7 +25,7 @@ export const PROJECT_CONSTS = [
     },
     {
         title: 'Pathfinding visualizer',
-        ext_info: 'React app to visualize essential pathfinding algorithms such as A* and Djikstras. More to be implemented.',
+        ext_info: 'React app to visualize essential pathfinding algorithms such as A* and Djikstras, demonstrating the use of heuristic functions and various aspects of informed and uninformed pathfinding algorithms. More to be implemented.',
         languages: 'Javascript, React, CSS, HTML',
         img: pathfinding,
         github: 'https://www.github.com/patwang123/Pathfinding-Visualizer',
@@ -31,18 +33,18 @@ export const PROJECT_CONSTS = [
     },
     {
         title: 'Sorting visualizer',
-        ext_info: 'Visualizes sort algorithms',
+        ext_info: 'Visualizes sort algorithms, such as Quick sort, Couting sort, Heap sort, Merge sort, using the matplotlib library\'s FuncAnimation.',
         languages: 'Python',
-        img: pathfinding,
+        img: sorting,
         github: 'https://www.github.com/patwang123/Sorting-Visualizer',
         test_it: null,
     },
     
     {
         title: 'Circuit solver',
-        ext_info: 'Solves circuits!',
+        ext_info: 'Solves basic circuits of resistors, voltage sources, and current sources for various attributes of each node such as power, voltage, and current. Intended for use in Berkeley\'s EECS 16A course',
         languages: 'Python',
-        img: pathfinding,
+        img: circuits,
         github: 'https://www.github.com/patwang123/Circuit-Solver',
         test_it: null,
     }

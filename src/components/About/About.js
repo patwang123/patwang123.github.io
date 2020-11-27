@@ -1,7 +1,7 @@
 import './About.css';
 export default function About () {
     return (
-        <div id='about-me' className='about-me'>
+        <div id='about-me' className='about-me main-section'>
             <h1 className='about-title'>
                 About me
             </h1>

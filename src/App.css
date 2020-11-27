@@ -1,6 +1,10 @@
 html {
   scroll-behavior: smooth;
 }
+.main-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 body {
   margin: 0;
   font-family: Calibri, sans-serif;

@@ -2,8 +2,6 @@ import React from 'react';
 import Card from 'react-bootstrap/Card'
 import './Panel.css';
 
-import { BrowserRouter, Route, Link } from 'react-router-dom';
-
 
 export default class Panel extends React.Component {
     constructor (props) {
@@ -18,9 +16,7 @@ export default class Panel extends React.Component {
 
         return (
             <a href={test_it} target='_blank' rel='noreferrer'>
-                <p className='p1'>
-                    Try it out
-                </p>
+                Try it out
             </a>
         )
     }
@@ -39,8 +35,8 @@ export default class Panel extends React.Component {
                     <Card.Title>{title}</Card.Title>
                     <Card.Text>{ext_info}</Card.Text>
                     <Card.Text>
-                        <a href={github} target='_blank' rel='noreferrer'>
-                            <p className='p1'>Github</p>
+                        <a href={github} target='_blank' rel='noreferrer' style={{marginRight: '15px'}}>
+                            Github
                         </a>
                         {this.test_it()}
                     </Card.Text>

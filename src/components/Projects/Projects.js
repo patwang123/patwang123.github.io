@@ -1,11 +1,11 @@
 import './Projects.css';
-import {Container, Row, Col, ModalTitle} from 'react-bootstrap/';
+import {Container, Row, Col} from 'react-bootstrap/';
 import Panel from './panel/Panel.js';
 import {PROJECT_CONSTS} from './project_consts.js';
 
 export default function Projects() {
     return (
-        <div id='projects' className='projects'>
+        <div id='projects' className='projects main-section'>
             <h1 id='project-title' style={{color: 'white'}}> Projects </h1>
             <Container id='project-container' fluid>
                 <Row md={3} id='row-container'>
