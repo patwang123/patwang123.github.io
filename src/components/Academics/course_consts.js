@@ -31,8 +31,27 @@ export const COURSE_CONSTS = [
         website: 'https://eecs16a.org/',
     },
     {
-        course_name: 'CS 61A',
-        ext_info: 'Cosjdflsdf',
-        website: 'https://cs61a.org/',
+        course_name: 'Physics 7B',
+        course_title: 'Physics for Scientists and Engineers',
+        ext_info: 'Electricity and Magnetism',
+        website: 'https://classes.berkeley.edu/content/2020-spring-physics-7b-001-lec-001',
     },
+    {
+        course_name: 'Physics 7C',
+        course_title: 'Physics for Scientists and Engineers',
+        ext_info: 'something something optics quantum relativity',
+        website: 'https://classes.berkeley.edu/content/2020-Fall-PHYSICS-7C-001-LEC-001',
+    },
+    {
+        course_name: 'Engin 185',
+        course_title: 'The Art of STEM Communication',
+        ext_info: 'something something optics quantum relativity',
+        website: 'https://classes.berkeley.edu/content/2020-spring-engin-185-001-lec-001',
+    },
+    {
+        course_name: 'Anthro 3AC',
+        course_title: 'Intro to Social and Cultural Anthropology',
+        ext_info: 'something something optics quantum relativity',
+        website: 'https://classes.berkeley.edu/content/2020-fall-anthro-3ac-001-lec-001',
+    }
 ]

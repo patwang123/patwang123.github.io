@@ -39,7 +39,14 @@ export const PROJECT_CONSTS = [
         github: 'https://www.github.com/patwang123/Sorting-Visualizer',
         test_it: null,
     },
-    
+    {
+        title: 'League Stats',
+        ext_info: 'Wrapper functions for Riot Games\' API products for League of Legends (incomplete)',
+        languages: 'Python',
+        img: sorting,
+        github: 'https://www.github.com/patwang123/LeagueStats',
+        test_it: null,
+    },
     {
         title: 'Circuit solver',
         ext_info: 'Solves basic circuits of resistors, voltage sources, and current sources for various attributes of each node such as power, voltage, and current. Intended for use in Berkeley\'s EECS 16A course',
