@@ -28,7 +28,7 @@ function App() {
           <Projects></Projects>
           <Academics></Academics>
           <h1>
-          Under construction, come back later :D - Updated as of 11/30/2020<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          Under construction, come back later :D - Updated as of 12/2/2020<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
           </h1>
       </div>
     </div>
