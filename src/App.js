@@ -27,9 +27,9 @@ function App() {
           <About></About>
           <Projects></Projects>
           <Academics></Academics>
-          <h1>
-          Under construction, come back later :D - Updated as of 12/2/2020<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          </h1>
+          <h5 style={{color:'white',textAlign: 'center'}}>
+          Updated 12/2/2020
+          </h5>
       </div>
     </div>
   );

@@ -27,7 +27,7 @@ export default class Panel extends React.Component {
             languages,
             img,
             github,
-            test_it} = this.props;
+            /*test_it*/} = this.props;
         return (
             <Card className="mx-4 my-4" id={title}>
                 <Card.Img variant="top" src={img}/>

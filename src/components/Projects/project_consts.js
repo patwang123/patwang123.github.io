@@ -2,6 +2,7 @@ import pathfinding from './img/pathfinding.jpg';
 import personal_website from './img/personal_website.jpg'
 import circuits from './img/circuits.jpg';
 import sorting from './img/sorting.jpg';
+import riot_api from './img/riot_api.JPG';
 /*
 Project Attributes
 ------------------------------------------------------
@@ -17,7 +18,7 @@ More to be added! (if i want to customize it more)
 export const PROJECT_CONSTS = [
     {
         title: 'Personal Website',
-        ext_info: 'My website created using React and other tools. Of course, you\'re on here already. As of now, there is no AWS integration, but there will be soon! (after i clean up this site)',
+        ext_info: 'My website created using React and other tools. Of course, you\'re on here already. As of now, there is no AWS integration, but there will be soon!',
         languages: 'Javascript, React, CSS, HTML, Bootstrap, AWS',
         img: personal_website,
         github: 'https://www.github.com/patwang123/patwang123.github.io',
@@ -33,7 +34,7 @@ export const PROJECT_CONSTS = [
     },
     {
         title: 'Sorting visualizer',
-        ext_info: 'Visualizes sort algorithms, such as Quick sort, Couting sort, Heap sort, Merge sort, using the matplotlib library\'s FuncAnimation.',
+        ext_info: 'Visualizes sort algorithms such as Quick sort, Counting sort, Heap sort, Merge sort, using the matplotlib library\'s FuncAnimation.',
         languages: 'Python',
         img: sorting,
         github: 'https://www.github.com/patwang123/Sorting-Visualizer',
@@ -41,15 +42,15 @@ export const PROJECT_CONSTS = [
     },
     {
         title: 'League Stats',
-        ext_info: 'Wrapper functions for Riot Games\' API products for League of Legends (incomplete)',
+        ext_info: 'Wrapper functions for Riot Games\' API products for League of Legends (incomplete). Intended for own personal usage for League statistics.',
         languages: 'Python',
-        img: sorting,
+        img: riot_api,
         github: 'https://www.github.com/patwang123/LeagueStats',
         test_it: null,
     },
     {
         title: 'Circuit solver',
-        ext_info: 'Solves basic circuits of resistors, voltage sources, and current sources for various attributes of each node such as power, voltage, and current. Intended for use in Berkeley\'s EECS 16A course',
+        ext_info: 'Simple project that solves basic circuits of resistors, voltage sources, and current sources for various attributes of each node such as power, voltage, and current. Intended for use in Berkeley\'s EECS 16A course',
         languages: 'Python',
         img: circuits,
         github: 'https://www.github.com/patwang123/Circuit-Solver',
