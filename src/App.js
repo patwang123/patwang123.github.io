@@ -28,7 +28,7 @@ function App() {
           <Projects></Projects>
           <Academics></Academics>
           <h5 style={{color:'white',textAlign: 'center'}}>
-          Updated 12/2/2020
+          Updated 12/4/2020
           </h5>
       </div>
     </div>
