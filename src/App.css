@@ -55,13 +55,15 @@ h1 {
   border-radius: 50% 50% 50% 50%;
   border: 2px solid rgba(255,255,255,0.6);
 }
-
+.dropbtn:focus{
+  outline:none;
+}
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
   left: calc(5%);
-  top: 75px; /* */
+  top: 85px; /* */
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -69,6 +71,7 @@ h1 {
   display: none;
   position: fixed;
   background-color: #f1f1f1;
+  border-radius: 5px;
   min-width: 160px;
   min-height: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -88,10 +91,9 @@ h1 {
   background-color: #ddd;}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-  position: fixed;}
-
+.show {
+  display:block;
+  position:fixed;}
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   animation-timing-function: ease-out;
