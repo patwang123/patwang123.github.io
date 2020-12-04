@@ -2,4 +2,4 @@
 
 Enjoy~
 
-Website made from React
+Website made from scratch using React
