@@ -1,7 +1,7 @@
 .about-me{
     background-color: rgb(245, 245, 245);
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
     height:100%;
     width: 100%;
     background-size: cover;
@@ -17,4 +17,20 @@
     padding-bottom: 10px;
     font-weight: 400;
     font-size: 40px;
+}
+.double-column {
+    margin-top: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+    display:flex
+}
+.column {
+    text-align: center;
+    flex: 50%;
+}
+.profile {
+    
+}
+.skills {
+
 }
