@@ -4,6 +4,7 @@ import Projects from './components/Projects/Projects.js';
 import Intro from './components/Intro/Intro.js';
 import About from './components/About/About.js';
 import Academics from './components/Academics/Academics.js';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
@@ -28,7 +29,7 @@ function App() {
           <Projects></Projects>
           <Academics></Academics>
           <h5 style={{color:'white',textAlign: 'center'}}>
-          Updated 12/4/2020
+          Updated 12/11/2020
           </h5>
       </div>
     </div>
