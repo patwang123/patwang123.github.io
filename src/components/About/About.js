@@ -1,4 +1,6 @@
 import './About.css';
+import {faPython, faCss3, faJs, faHtml5} from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function About () {
     return (
         <div id='about-me' className='about-me main-section'>
@@ -19,6 +21,23 @@ export default function About () {
                     <h3>Skills</h3>
                     <div className='skills'>
                         To be implemented!
+                        <h6>HTML</h6>
+                        <div className="container">
+                            <FontAwesomeIcon icon={faHtml5}></FontAwesomeIcon>
+                            <div className="skill html">90%</div>
+                        </div>
+
+                        <h6>CSS</h6>
+                        <div className="container">
+                            <FontAwesomeIcon icon={faCss3}></FontAwesomeIcon>
+                            <div className="skill css">80%</div>
+                        </div>
+
+                        <h6>JavaScript</h6>
+                        <div className="container">
+                            <FontAwesomeIcon icon={faJs}></FontAwesomeIcon>
+                            <div className="skill js">65%</div>
+                        </div>
                     </div>
                 </div>
             </div>
