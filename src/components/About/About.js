@@ -1,5 +1,5 @@
 import './About.css';
-import {faPython, faCss3, faJs, faHtml5} from '@fortawesome/free-brands-svg-icons'
+import {faPython, faCss3, faJs, faHtml5, faJava} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function About () {
     return (
@@ -15,29 +15,43 @@ export default function About () {
                     <h3>Profile</h3>
                     <div className='profile'>
                         To be implemented!
+                        <br/>
+                        Education, location, email, previous workplaces
                     </div>
                 </div>
                 <div className='column'>
                     <h3>Skills</h3>
                     <div className='skills'>
                         To be implemented!
-                        <h6>HTML</h6>
-                        <div className="container">
-                            <FontAwesomeIcon icon={faHtml5}></FontAwesomeIcon>
-                            <div className="skill html">90%</div>
+                        <h6>Python</h6>
+                        <div className="skill-container">
+                            <FontAwesomeIcon icon={faPython}></FontAwesomeIcon>
+                            <div className="skill python">90%</div>
                         </div>
-
-                        <h6>CSS</h6>
-                        <div className="container">
-                            <FontAwesomeIcon icon={faCss3}></FontAwesomeIcon>
-                            <div className="skill css">80%</div>
+                        <h6>Java</h6>
+                        <div className="skill-container">
+                            <FontAwesomeIcon icon={faJava}></FontAwesomeIcon>
+                            <div className="skill java">90%</div>
                         </div>
 
                         <h6>JavaScript</h6>
-                        <div className="container">
+                        <div className="skill-container">
                             <FontAwesomeIcon icon={faJs}></FontAwesomeIcon>
-                            <div className="skill js">65%</div>
+                            <div className="skill js">80%</div>
                         </div>
+                        <h6>HTML</h6>
+                        <div className="skill-container">
+                            <FontAwesomeIcon icon={faHtml5}></FontAwesomeIcon>
+                            <div className="skill html">75%</div>
+                        </div>
+
+                        <h6>CSS</h6>
+                        <div className="skill-container">
+                            <FontAwesomeIcon icon={faCss3}></FontAwesomeIcon>
+                            <div className="skill css">60%</div>
+                        </div>
+                        <br/>
+                        <p>Other skills: C++, C, SQL, Matlab, R, Swift, Bash, LISP, React, Git, Minitab, ArcGIS, Bootstrap, Node.js</p>
                     </div>
                 </div>
             </div>

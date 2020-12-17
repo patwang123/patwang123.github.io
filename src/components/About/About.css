@@ -31,12 +31,12 @@
 .profile {
     
 }
-.container {
+.skill-container {
     display:flex;
     align-items: center;
     height: 20px;  
-    padding-left: 20%;
-    padding-right: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .skills {
     padding-left: 10%;
@@ -52,9 +52,11 @@
     padding-right: 10px;
 }
 
-.html {width: 90%; background-color: #4CAF50; border-radius: 4px;} /* Green */
-.css {width: 80%; background-color: #2196F3;border-radius: 4px;} /* Blue */
-.js {width: 65%; background-color: #f44336;border-radius: 4px;} /* Red */
+.html {width: 75%; background-color: #2196F3; border-radius: 4px;} /* Green */
+.css {width: 60%; background-color: #f44336; border-radius: 4px;} /* Blue */
+.js {width: 80%; background-color: #4CAF50; border-radius: 4px;} /* Red */
+.python {width: 90%; background-color: #4CAF50; border-radius: 4px;}
+.java {width: 90%; background-color: #4CAF50; border-radius: 4px;}
 
 h6 {
     text-align: left;
