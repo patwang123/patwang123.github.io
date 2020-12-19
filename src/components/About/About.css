@@ -29,7 +29,8 @@
     flex: 50%;
 }
 .profile {
-    
+    padding-left: 100px;
+    text-align: left;
 }
 .skill-container {
     display:flex;
@@ -61,4 +62,18 @@
 h6 {
     text-align: left;
     padding-top: 10px;
+}
+.profile-subtitle{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+.profile-list {
+    padding-bottom: 5px;
+    padding-inline-start: 40px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+li {
+    font-size: 18px;
 }

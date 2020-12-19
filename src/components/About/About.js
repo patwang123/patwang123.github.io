@@ -14,9 +14,31 @@ export default function About () {
                 <div className='column'>
                     <h3>Profile</h3>
                     <div className='profile'>
-                        To be implemented!
-                        <br/>
-                        Education, location, email, previous workplaces
+                        To be implemented/formatted!
+                        <h5 className='profile-subtitle'>Education</h5>
+                        <ul className='profile-list'>
+                            <li>Montgomery Blair High School</li>
+                            <li>University of California, Berkeley</li>
+                        </ul>
+                        <h5 className='profile-subtitle'>Location</h5>
+                        <ul className='profile-list'>
+                            <li>Rockville, Maryland</li>
+                            <li>Soon to be Berkeley, California!</li>
+                        </ul>
+                        <h5 className='profile-subtitle'>Email</h5>
+                        <ul className='profile-list'>
+                            <li>patrickwang86@gmail.com</li>
+                            <li>patwang123@berkeley.edu</li>
+                        </ul>
+                        <h5 className='profile-subtitle'>Previous workplaces</h5>
+                        <ul className='profile-list'>
+                            <li>Johns Hopkins Applied Physics Laboratory</li>
+                            <li>University of Maryland</li>
+                        </ul>
+                        <h5 className='profile-subtitle'>Hobbies</h5>
+                        <ul className='profile-list'>
+                            <li>Swimming, video games, music, basketball, coding</li>
+                        </ul>
                     </div>
                 </div>
                 <div className='column'>
