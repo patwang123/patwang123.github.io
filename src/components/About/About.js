@@ -1,6 +1,8 @@
 import './About.css';
 import {faPython, faCss3, faJs, faHtml5, faJava} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { PROFILE_CONSTS } from './profile_consts.js';
+import AboutCategory from './AboutCategory.js';
 export default function About () {
     return (
         <div id='about-me' className='about-me main-section'>
@@ -15,30 +17,23 @@ export default function About () {
                     <h3>Profile</h3>
                     <div className='profile'>
                         To be implemented/formatted!
-                        <h5 className='profile-subtitle'>Education</h5>
-                        <ul className='profile-list'>
-                            <li>Montgomery Blair High School</li>
-                            <li>University of California, Berkeley</li>
-                        </ul>
-                        <h5 className='profile-subtitle'>Location</h5>
-                        <ul className='profile-list'>
-                            <li>Rockville, Maryland</li>
-                            <li>Soon to be Berkeley, California!</li>
-                        </ul>
-                        <h5 className='profile-subtitle'>Email</h5>
-                        <ul className='profile-list'>
-                            <li>patrickwang86@gmail.com</li>
-                            <li>patwang123@berkeley.edu</li>
-                        </ul>
-                        <h5 className='profile-subtitle'>Previous workplaces</h5>
-                        <ul className='profile-list'>
-                            <li>Johns Hopkins Applied Physics Laboratory</li>
-                            <li>University of Maryland</li>
-                        </ul>
-                        <h5 className='profile-subtitle'>Hobbies</h5>
-                        <ul className='profile-list'>
-                            <li>Swimming, video games, music, basketball, coding</li>
-                        </ul>
+                        {
+                            PROFILE_CONSTS.map((profile,idx) => 
+                                {
+                                    const {
+                                        category,
+                                        list_items} = profile
+                                    return (
+                                        <AboutCategory
+                                            id={`AboutCategory-${idx}`}
+                                            key={`AboutCategory-${idx}`}
+                                            category={category}
+                                            list_items={list_items}
+                                        >
+                                        </AboutCategory>
+                                    )
+                                })
+                        }
                     </div>
                 </div>
                 <div className='column'>

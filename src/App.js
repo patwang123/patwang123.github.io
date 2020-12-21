@@ -29,7 +29,7 @@ function App() {
           <Projects></Projects>
           <Academics></Academics>
           <h5 style={{color:'white',textAlign: 'center'}}>
-          Updated 12/15/2020
+          Updated 12/20/2020
           </h5>
       </div>
     </div>
