@@ -3,6 +3,7 @@ import personal_website from './img/personal_website.jpg'
 import circuits from './img/circuits.jpg';
 import sorting from './img/sorting.jpg';
 import riot_api from './img/riot_api.JPG';
+import neural_network from './img/neural_network.png';
 /*
 Project Attributes
 ------------------------------------------------------
@@ -33,6 +34,14 @@ export const PROJECT_CONSTS = [
         test_it: 'https://patwang123.github.io/Pathfinding-Visualizer'
     },
     {
+        title: 'Neural Network',
+        ext_info: 'Neural network coded from scratch using numpy and scipy, built for image recognition on MNIST\'s handwritten 28x28 digit database but suitable for any basic ANN structure.',
+        languages: 'Python',
+        img: neural_network,
+        github: 'https://github.com/patwang123/neural_network',
+        test_it: null,
+    },
+    {
         title: 'Sorting visualizer',
         ext_info: 'Visualizes sort algorithms such as Quick sort, Counting sort, Heap sort, Merge sort, using the matplotlib library\'s FuncAnimation.',
         languages: 'Python',
@@ -56,4 +65,5 @@ export const PROJECT_CONSTS = [
         github: 'https://www.github.com/patwang123/Circuit-Solver',
         test_it: null,
     }
+    
 ]
