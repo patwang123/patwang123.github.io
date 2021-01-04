@@ -42,16 +42,4 @@ export const COURSE_CONSTS = [
         ext_info: 'Topics include electromagnetic waves, optics, relativity, and quantum physics.',
         website: 'https://classes.berkeley.edu/content/2020-Fall-PHYSICS-7C-001-LEC-001',
     },
-    {
-        course_name: 'Engin 185 (In progress)',
-        course_title: 'The Art of STEM Communication',
-        ext_info: 'Fundamentals skills of communicating in technical contexts, learning to analyze and gain interest in a broad range of engineering fields.',
-        website: 'https://classes.berkeley.edu/content/2020-spring-engin-185-001-lec-001',
-    },
-    {
-        course_name: 'Anthro 3AC (P)',
-        course_title: 'Intro to Social and Cultural Anthropology',
-        ext_info: 'Structure and dynamics of human cultures and social institutions from a comparative perspective with special attention to American cultures and their roots.',
-        website: 'https://classes.berkeley.edu/content/2020-fall-anthro-3ac-001-lec-001',
-    }
 ]
