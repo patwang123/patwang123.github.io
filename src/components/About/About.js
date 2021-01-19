@@ -68,7 +68,7 @@ export default function About () {
                             <div className="skill css">60%</div>
                         </div>
                         <br/>
-                        <p>Other skills: C++, C, SQL, Matlab, R, Swift, Bash, LISP, React, Git, Minitab, ArcGIS, Bootstrap, Node.js</p>
+                        <p>Other skills: C++, C, SQL, Matlab, R, Bash, LISP, React, Git, Minitab, ArcGIS, Bootstrap, Django, Node.js</p>
                     </div>
                 </div>
             </div>
