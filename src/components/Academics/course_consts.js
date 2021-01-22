@@ -42,4 +42,10 @@ export const COURSE_CONSTS = [
         ext_info: 'Topics include electromagnetic waves, optics, relativity, and quantum physics.',
         website: 'https://classes.berkeley.edu/content/2020-Fall-PHYSICS-7C-001-LEC-001',
     },
+    {
+        course_name: 'Engin 185 (In progress)',
+        course_title: 'The Art of STEM Communication',
+        ext_info: 'Writing and communicating for engineers',
+        website: 'https://classes.berkeley.edu/content/2019-spring-engin-185-001-lec-001',
+    },
 ]
