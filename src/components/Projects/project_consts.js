@@ -19,8 +19,8 @@ More to be added! (if i want to customize it more)
 export const PROJECT_CONSTS = [
     {
         title: 'Personal Website',
-        ext_info: 'My website created using React and other tools. Of course, you\'re on here already. As of now, there is no AWS integration, but there will be soon!',
-        languages: 'Javascript, React, CSS, HTML, Bootstrap, AWS',
+        ext_info: 'My website created using React and other tools. Of course, you\'re on here already.',
+        languages: 'Javascript, React, CSS, HTML, Bootstrap',
         img: personal_website,
         github: 'https://www.github.com/patwang123/patwang123.github.io',
         test_it: null,
