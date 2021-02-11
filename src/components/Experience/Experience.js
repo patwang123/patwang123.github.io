@@ -1,7 +1,9 @@
 export default function Experience() {
     return (
         <div className='experience'>
-            EXPERIENCE BRUFH
+            Launchpad
+            University of Maryland
+            Johns Hopkins Applied Physics Laboratory
         </div>
     )
 }
