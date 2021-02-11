@@ -26,6 +26,14 @@ export const PROJECT_CONSTS = [
         test_it: null,
     },
     {
+        title: 'Todo List',
+        ext_info: 'Basic todo list of name, description, created date, due date, category, person, and priority, created using Django and MySQL and API using the Django REST Framework.',
+        languages: 'Python, Django, MySQL',
+        img: circuits,
+        github: 'https://github.com/patwang123/todo-list',
+        test_it: null,
+    },
+    {
         title: 'Pathfinding visualizer',
         ext_info: 'React app to visualize essential pathfinding algorithms such as A* and Djikstras, demonstrating the use of heuristic functions and various aspects of informed and uninformed pathfinding algorithms. More to be implemented.',
         languages: 'Javascript, React, CSS, HTML',
