@@ -1,3 +1,19 @@
+.containerz {
+  display: flex;
+}
+.box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.countbox {
+  justify-content: left;
+}
+
+.box:first-child > span { margin-right: auto; }
+
+.box:last-child  > span { margin-left: auto;  }
+
 html {
   scroll-behavior: smooth;
 }
