@@ -33,7 +33,7 @@ function App() {
           <div class='box' style={{ justifyContent: 'left', paddingTop: '5px', paddingBottom: '5px'}}>
               <img class='countbox' src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fpatwang123.github.io%2F" alt="Hits"/>
             </div>
-            <h5 class='box' style={{ color: 'white' }}>Updated 2/23/2020</h5>
+            <h5 class='box' style={{ color: 'white' }}>Updated 2/26/2020</h5>
             <div class="box"></div>
           </div>
       </div>
